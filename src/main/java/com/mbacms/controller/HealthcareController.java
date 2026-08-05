@@ -13,7 +13,6 @@ import java.security.Principal;
 @RestController
 @RequestMapping("/api/healthcare")
 @AllArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173/")
 
 public class HealthcareController {
 

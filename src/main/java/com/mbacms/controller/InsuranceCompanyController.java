@@ -16,7 +16,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/insurance-company")
 @AllArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173/")
 
 public class InsuranceCompanyController {
 

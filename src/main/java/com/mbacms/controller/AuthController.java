@@ -15,7 +15,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/auth")
 @AllArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173/")
 public class AuthController {
 
     private final JwtUtility jwtUtility;
