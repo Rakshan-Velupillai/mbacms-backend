@@ -34,7 +34,7 @@ public class SecurityConfig {
 
 
         http
-
+                .cors(Customizer.withDefaults())
                 .csrf(AbstractHttpConfigurer::disable)
                     //spring needs this for performing the DML ops(PUT,POST..)
                 .authorizeHttpRequests(authorize -> authorize
